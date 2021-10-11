@@ -1,0 +1,559 @@
+/* body{
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+} */
+html{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0 auto;
+   max-width: 320px;
+   font-family:'Open Sans', sans-serif;
+   height: 100vh;
+  
+
+}
+
+.cover{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 320px;
+    height: 320px;
+    }
+
+    .g{
+        width: calc(var(--box)* var(--scale));
+        height:calc(var(--box)*var(--scale));
+        display: flex;
+        /* justify-content:center ; */
+        /* align-items:center ; */
+     }
+    
+        
+    
+    
+    .cover-head{
+        display: flex;
+        width: 320px;
+
+        min-height: 40px;;
+        flex-direction: row;
+       justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+        
+        /* border:0.01px solid  rgb(17, 0, 255); */
+       
+        background-color: skyblue;
+      
+    }
+    .menue{
+        /* width: calc(var(--box)*(97/320)); */
+        width: 120px;
+        padding: 5px;
+        
+        /* height: 100%; */
+        /* border: 0.01px solid black   ; */
+    }
+    
+    .trolly{
+        min-width:130px;
+        /* height: 100%; */
+        /* border: 0.01px solid black   ; */
+        /* background-color: skyblue; */
+        color: white;
+       
+    }
+    .olive{
+        width:90px;
+       
+        /* height: 100%; */
+        /* border: 0.01px solid black ; */
+       
+
+
+    }
+    .inputitem{
+        /* border: 1px solid red; */
+        width: 80px;
+        text-align: center;
+        border-radius: 30px;
+        height: 30px;
+        background-color: #0193cc;
+        margin-right: 5px;
+        color: white;
+    }
+    
+    .fas{
+        color: white;
+        /* z-index: 2; */
+        
+      
+        margin-top: 5px;
+        margin-left: 6px;
+      
+       
+       font-size: 21px;
+      
+    }
+    .fa-solid{
+        font-size: 21px;
+        color: rgb(173, 58, 23);
+        font-family: FontAwsome;
+       
+    }
+  
+    .coverlogosearch{
+        display: flex;
+    
+        flex-wrap: wrap;
+       
+        width: 320px;
+  
+        /* justify-content: space-around;
+        align-content: center; */
+       
+        min-height: 125px;
+    } 
+     
+    .logo{
+        width: 320px;
+        height: 40px;
+        /* margin-left: 15px;
+         */
+        /* border: 1px solid yellow; */
+        margin-top:15px ;
+    
+    }
+    .img-logo{
+        width: 290px;
+        height: 40px;
+        /* 
+        margin-top:15px ; */
+        margin-left: 15px;
+    
+    }   
+    .forinput{
+        width: 250px;
+        height: 45px;
+        /* border: 1px solid red; */
+        
+    }
+    
+    
+    
+    
+    
+    .inputsearch{
+    
+        /* width:200px; */
+        height:40px;
+        border: 1px solid #5a5a5a;
+        border-radius: 20px;
+        margin-left:50px ;
+        /* margin-bottom: 15px; */
+         
+        /* margin-right:75px;
+    
+        margin-top: 15px; */
+        text-align: center;
+    
+    }
+    
+    .magnif{ 
+      width: 40px;
+      height: 40px;
+        border-radius: 50%;
+        border: 1px solid green;
+        /* margin-left: 255px; */
+        /* margin-top: -10px; */
+        background-color:#012835;
+        text-align: center;
+        /* display: block; */
+
+    
+    }
+    
+
+    .fa-magnifying-glass:before, .fa-search:before {
+        content: "\f002";
+        /* margin-left: 255px; */
+        font-size: 20px;
+       line-height: 40px;
+       color: white;
+     
+       
+        /* text-align: center; */
+    }
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    max-width:320px ;
+    /* min-height:auto ; */
+    justify-content: center;
+    align-content: center ;
+    /* background-color: yellow; */
+}
+
+img{
+    margin-bottom: 30px;
+    
+
+}
+   
+    
+ 
+
+.arm
+{
+    width:100px;
+    height:100px;
+}
+.search{
+    max-width:100px;
+    max-height:100px;
+}
+
+.links{
+    max-width: 320px;
+    min-height:210px ;
+    /* border: 1px solid pink; */
+    background-color: #012835;
+  
+    display: flex; 
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+.alink{
+    color: #ffffff;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    font-size: 10px;
+    /* margin-left: 50px; */
+}
+
+
+.textbox{
+
+
+    width:131px;
+    height: 40px;
+    border: 1px solid #00acee;
+    font-size: 16px;
+    border-radius: 2.5px;
+    text-align: center;
+    line-height: 2.5;
+    color: #f3f5f4;
+}
+
+
+
+
+.orange1{
+    background-color:#ff680b;
+    line-height: 45px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left:10px ;
+    margin-top: 27px;
+    text-indent: 35px;
+    /* text-align: left; */
+
+}
+.orange2{
+    background-color:#ff680b;
+    line-height: 45px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left:10px ;
+    margin-bottom: 30px;
+    text-indent: 35px;
+    /* text-align: left; */
+
+}
+.afterorange2{
+    line-height: 50px;
+    margin-left: 15px;
+  
+   
+}
+.orange2_2{
+    color:#44b7ee;
+}
+
+
+.sportitems{
+    display: flex;
+
+    width: 320px;
+    min-height:910px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* .price{
+    margin-top: 20px;
+
+
+} */
+
+.sport{
+    width:140px ;
+    min-height:250px;
+    /* border:1px solid blue; */
+    /* display: fle1x; */
+  /* justify-content: center; */
+  text-align: center;
+   
+ 
+
+}
+
+
+.hidden{
+    visibility: hidden;
+}
+
+.brands{
+    min-height: 140px;
+   width: 320px;
+    background-color: #012835;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+  
+}
+
+.nike{
+    width: 100px;
+    height: 26px;
+    /* border:1px solid  red; */
+    align-self: center;
+    
+    
+}
+
+.adidas{
+    width: 85px;
+    height: 54px;
+    /* border:1px solid  red; */
+    align-self: center;
+}
+
+.skins{
+    width: 80px;
+    height: 30px;
+    /* border:1px solid  red; */
+    align-self: center;
+    align-self: center;
+}
+.asics{
+    width: 80px;
+    height:30px;
+    /* border:1px solid  red; */
+    align-self: center;
+}
+.nb{
+    width: 75px;
+    height: 45px;
+    /* border:1px solid  red; */
+    align-self: center;
+}
+.wilson{
+    width: 75px;
+    height: 25px;
+    /* border:1px solid  white; */
+    align-self: center;
+
+}
+
+.navbottom{
+    min-height: 240px;
+
+    min-width: 240px;
+    color: white;
+    /* margin-left: 115px; */
+    /* border: 1px solid red; */
+
+
+}
+.contact{
+    margin-left: 40px;
+   
+}
+
+.li::before{
+content: 'iiie';
+font-size: 8px;
+color:#016889;
+width: 10px;
+height: 6px;
+border-bottom-left-radius: 8px;
+border-top-left-radius: 8px;
+
+background-color:#016889;
+margin-right:5px;
+}
+.a_li{
+    color: white;
+  
+}
+li{
+    list-style: none;
+    line-height: 30px;
+    
+   
+}
+a{
+    text-decoration: none;
+}
+.nav{
+   
+    background-color:#01aaeb;
+    min-height: 400px;
+    /* justify-content: space-around; */
+    /* border: 1px solid green;
+   */
+
+}
+.socialmedia{
+    max-width: 320px;
+    min-height:100px;
+    /* border: 1px solid red; */
+    display: flex;
+    
+   justify-content: space-around;
+    align-content: center;
+}
+.fa-brands{
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    
+    /* font-size: 85px; */
+    /* border-radius: 50%; */
+    
+    /* color:#00acee; */
+    /* margin-top: 10px; */
+ 
+ }
+ .fa-twitter{
+    color:white;
+    background-color:#00acee; 
+    font-size: 60px;
+ 
+ }
+ .fa-twitter:before {
+    content: "\f099";
+    line-height: 80px;
+    font-size: 42px;
+    
+}
+.twiter{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    border:1px solid white;
+    display: block;
+    background-color: #00acee;
+}
+.text_social{
+    color: white;
+    font-size: 20px;
+ 
+   
+    font-size: 1em;
+}
+.t_facebook{
+   
+ 
+    margin-left:35px;
+   
+}
+.facebook{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    border:1px solid white;
+    display: block;
+    background-color:00acee;
+    
+}
+.fa-facebook:before {
+    content: "\f09a";
+    
+    line-height: 80px;
+    font-size: 80px;
+    background-color: white;
+    border-radius: 50%;
+    color:#00acee;
+    
+}
+
+ .t_twiter{
+
+    margin-left:30px;
+
+ }
+
+ .other{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    /* border:1px solid white; */
+    display: block;
+    background-color: #00acee;
+ }
+  
+
+.t_other{
+    margin-left:25px;
+    
+}
+
+
+
+fa-telegram-plane:before, .fa-telegram:before {
+    content: "\f2c6";
+    
+    line-height: 80px;
+    font-size: 80px;
+    background-color: white;
+    border-radius: 50%;
+     color:#00acee;
+}
+
+
+
+
+.copywrite{
+    min-height: 100px;
+    max-width: 320px;
+    /* border: 1px solid greenyellow; */
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+
+.rights{
+    text-align: center;
+}
